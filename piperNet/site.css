@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+}
+header {
+  height: 84px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 84px;
+  background-color: #007765;
+}
+.shapka {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  max-width: 1219px;
+  padding: 19.5px 55px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  margin: 10px 0;
+}
+.list li {
+  display: inline;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.headlin {
+  margin: 0 auto;
+  background-image: url("jpg/image.png");
+  background-size: cover;
+  width: 100%;
+  height: 403px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  font-size: 72px;
+  line-height: 84px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.problem {
+  width: 100%;
+  height: 719px;
+  background: #eeeeee;
+}
+#pr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.probdis {
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  width: 1110px;
+  margin: 0 auto;
+}
+.prom {
+  height: 483px;
+  margin: 0 auto;
+  background-image: url("jpg/image-1.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+}
+.prom p {
+  width: 893px;
+  height: 228px;
+}
+.coinh {
+  width: 1100px;
+  height: 604px;
+  margin: 0 auto;
+}
+.coinh > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin: 0;
+  padding-top: 40px;
+}
+.coin1 {
+  display: flex;
+  align-items: center;
+}
+.coin1 > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  width: 930px;
+  height: 110px;
+  color: #000000;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+.coin2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  width: 1110px;
+  height: 223px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.team {
+  width: 100%;
+  height: 845px;
+  background: #eeeeee;
+}
+.team > p {
+  width: 1110px;
+  height: 75px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 48px;
+
+  margin: 0 auto;
+}
+.photo1 {
+  margin: 50px auto;
+  height: 292px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.photo2 {
+  margin: 50px auto;
+  height: 292px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #007765;
+}
+.job {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+.container {
+  height: 176px;
+  background: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container p {
+  width: 540px;
+  height: 64px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
